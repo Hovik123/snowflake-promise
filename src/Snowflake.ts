@@ -1,9 +1,9 @@
 import * as SDK from 'snowflake-sdk';
 import { Statement } from './Statement';
 import { ConfigureOptions } from './types/ConfigureOptions';
-import { ConnectionOptions } from './types/ConnectionOptions';
 import { ExecuteOptions } from './types/ExecuteOptions';
 import { LoggingOptions } from './types/LoggingOptions';
+import {ConnectionOptions} from "snowflake-sdk";
 
 export class Snowflake {
   private readonly sdk_connection;
